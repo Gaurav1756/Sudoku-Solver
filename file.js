@@ -34,7 +34,7 @@ GetPuzzle.onclick = function () {
 		board = response.board
 		FillBoard(board)
 	}
-	xhrRequest.open('get', 'https://sugoku.herokuapp.com/board?difficulty=easy')
+	xhrRequest.open('get', 'https://sugoku.onrender.com/board?difficulty=easy')
 	xhrRequest.send()
 }
 
